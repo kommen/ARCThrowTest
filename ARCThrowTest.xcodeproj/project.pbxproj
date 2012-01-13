@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7F0635C145429FD00BD2D45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F0635B145429FD00BD2D45 /* UIKit.framework */; };
+		A7F0635E145429FD00BD2D45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F0635D145429FD00BD2D45 /* Foundation.framework */; };
+		A7F06360145429FD00BD2D45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F0635F145429FD00BD2D45 /* CoreGraphics.framework */; };
+		A7F06366145429FD00BD2D45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7F06364145429FD00BD2D45 /* InfoPlist.strings */; };
+		A7F06368145429FD00BD2D45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F06367145429FD00BD2D45 /* main.m */; };
+		A7F0636C145429FD00BD2D45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F0636B145429FD00BD2D45 /* AppDelegate.m */; };
+		A7F0636F145429FD00BD2D45 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F0636D145429FD00BD2D45 /* MainStoryboard_iPhone.storyboard */; };
+		A7F06372145429FD00BD2D45 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F06370145429FD00BD2D45 /* MainStoryboard_iPad.storyboard */; };
+		A7F06375145429FD00BD2D45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F06374145429FD00BD2D45 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7F06357145429FD00BD2D45 /* ARCThrowTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCThrowTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F0635B145429FD00BD2D45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7F0635D145429FD00BD2D45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7F0635F145429FD00BD2D45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7F06363145429FD00BD2D45 /* ARCThrowTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARCThrowTest-Info.plist"; sourceTree = "<group>"; };
+		A7F06365145429FD00BD2D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7F06367145429FD00BD2D45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7F06369145429FD00BD2D45 /* ARCThrowTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARCThrowTest-Prefix.pch"; sourceTree = "<group>"; };
+		A7F0636A145429FD00BD2D45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7F0636B145429FD00BD2D45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7F0636E145429FD00BD2D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A7F06371145429FD00BD2D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A7F06373145429FD00BD2D45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7F06374145429FD00BD2D45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F06354145429FD00BD2D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F0635C145429FD00BD2D45 /* UIKit.framework in Frameworks */,
+				A7F0635E145429FD00BD2D45 /* Foundation.framework in Frameworks */,
+				A7F06360145429FD00BD2D45 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7F0634C145429FD00BD2D45 = {
+			isa = PBXGroup;
+			children = (
+				A7F06361145429FD00BD2D45 /* ARCThrowTest */,
+				A7F0635A145429FD00BD2D45 /* Frameworks */,
+				A7F06358145429FD00BD2D45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F06358145429FD00BD2D45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F06357145429FD00BD2D45 /* ARCThrowTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F0635A145429FD00BD2D45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7F0635B145429FD00BD2D45 /* UIKit.framework */,
+				A7F0635D145429FD00BD2D45 /* Foundation.framework */,
+				A7F0635F145429FD00BD2D45 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7F06361145429FD00BD2D45 /* ARCThrowTest */ = {
+			isa = PBXGroup;
+			children = (
+				A7F0636A145429FD00BD2D45 /* AppDelegate.h */,
+				A7F0636B145429FD00BD2D45 /* AppDelegate.m */,
+				A7F0636D145429FD00BD2D45 /* MainStoryboard_iPhone.storyboard */,
+				A7F06370145429FD00BD2D45 /* MainStoryboard_iPad.storyboard */,
+				A7F06373145429FD00BD2D45 /* ViewController.h */,
+				A7F06374145429FD00BD2D45 /* ViewController.m */,
+				A7F06362145429FD00BD2D45 /* Supporting Files */,
+			);
+			path = ARCThrowTest;
+			sourceTree = "<group>";
+		};
+		A7F06362145429FD00BD2D45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7F06363145429FD00BD2D45 /* ARCThrowTest-Info.plist */,
+				A7F06364145429FD00BD2D45 /* InfoPlist.strings */,
+				A7F06367145429FD00BD2D45 /* main.m */,
+				A7F06369145429FD00BD2D45 /* ARCThrowTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F06356145429FD00BD2D45 /* ARCThrowTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F06378145429FD00BD2D45 /* Build configuration list for PBXNativeTarget "ARCThrowTest" */;
+			buildPhases = (
+				A7F06353145429FD00BD2D45 /* Sources */,
+				A7F06354145429FD00BD2D45 /* Frameworks */,
+				A7F06355145429FD00BD2D45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCThrowTest;
+			productName = ARCThrowTest;
+			productReference = A7F06357145429FD00BD2D45 /* ARCThrowTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F0634E145429FD00BD2D45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A7F06351145429FD00BD2D45 /* Build configuration list for PBXProject "ARCThrowTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7F0634C145429FD00BD2D45;
+			productRefGroup = A7F06358145429FD00BD2D45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F06356145429FD00BD2D45 /* ARCThrowTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7F06355145429FD00BD2D45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F06366145429FD00BD2D45 /* InfoPlist.strings in Resources */,
+				A7F0636F145429FD00BD2D45 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A7F06372145429FD00BD2D45 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F06353145429FD00BD2D45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F06368145429FD00BD2D45 /* main.m in Sources */,
+				A7F0636C145429FD00BD2D45 /* AppDelegate.m in Sources */,
+				A7F06375145429FD00BD2D45 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7F06364145429FD00BD2D45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F06365145429FD00BD2D45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7F0636D145429FD00BD2D45 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F0636E145429FD00BD2D45 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A7F06370145429FD00BD2D45 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F06371145429FD00BD2D45 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7F06376145429FD00BD2D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7F06377145429FD00BD2D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7F06379145429FD00BD2D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCThrowTest/ARCThrowTest-Prefix.pch";
+				INFOPLIST_FILE = "ARCThrowTest/ARCThrowTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7F0637A145429FD00BD2D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCThrowTest/ARCThrowTest-Prefix.pch";
+				INFOPLIST_FILE = "ARCThrowTest/ARCThrowTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F06351145429FD00BD2D45 /* Build configuration list for PBXProject "ARCThrowTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F06376145429FD00BD2D45 /* Debug */,
+				A7F06377145429FD00BD2D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F06378145429FD00BD2D45 /* Build configuration list for PBXNativeTarget "ARCThrowTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F06379145429FD00BD2D45 /* Debug */,
+				A7F0637A145429FD00BD2D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7F0634E145429FD00BD2D45 /* Project object */;
+}
